@@ -1,0 +1,33 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    height: 500px;
+    width: 900px;
+    margin-top: 16%;
+    align-self: auto;
+    justify-content: space-around;
+    background-image: url('../assets/imagea.jpg')
+}
+
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   font-size: 50px;
+   cursor: pointer;
+
+   
+}
+img{
+    width: 50px;
+    height: 50px;
+}
